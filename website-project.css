@@ -1,0 +1,105 @@
+#flexbox{
+    display: flex;
+    margin: 0px;
+    padding:0px;
+    height:100%;
+    width: 100%;
+}
+.page{
+    background-color: aquamarine;
+    width: 100;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid red;
+    width: 100%;
+    background-color: hsla(196, 67%, 81%, .9);
+}
+h1{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-size: xx-large;
+    border: 3px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0px 285px;
+    border-radius: 10px 55px;
+    box-shadow: 8px 15px;
+}
+.nav-mss{
+    text-decoration: underline;
+    text-shadow: 1px 1px;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+}
+.topnavleft{
+    display: flex;
+flex-direction: row;
+justify-content: flex-end;
+padding-right: 65px;
+gap: 20px;
+align-content: space-between;
+background-color: antiquewhite;
+}
+button:active{
+    background-color: #4caf50;
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    justify-content:center ;
+}
+button{
+    border-radius: 25px;
+    background-color: rgb(217, 230, 230);
+    font-size:medium;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+}
+form{
+    display: flex;
+    padding: 35px;
+    gap:20px;
+}
+input{
+    border-radius: 5px 10px;
+}
+.info{
+    text-align: right;
+}
+footer, .topfooter, .botfooter{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+.topfooter{
+    font-style:normal ;
+}
+.botfooter{
+    font-weight: 800;
+}
+.column{
+    
+    column-gap: 90px;
+}
+.side-content-left{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 750px;
+}
+.Me, .Cooking, .Gardening, .Pets{
+    font-size: x-large;
+    border: 1px solid gray;
+    border-style: dotted;
+    text-align: center;
+    text-decoration: underline;
+}
